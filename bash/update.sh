@@ -1,5 +1,5 @@
-./zfile/bin/stop.sh     #停止          
-cp ./zfile/WEB-INF/classes/allplcation.propperties /home/runner/zfile-replit #备份配置文件
+bash ./zfile/bin/stop.sh     #停止          
+cp ./zfile/WEB-INF/classes/allplcation.propperties /home/runner/zfile #备份配置文件
 
 rm -rf ./zfile   #删除运行目录
 
@@ -15,4 +15,4 @@ mv /home/runner/zfile-replit/application.propperties /home/runner/zfile/zfile/WE
 
 chmod +x $ZFILE_INSTALL_PATH/bin/*.sh   #授权启动停止脚本  
 
-bash /home/runner/zfile-replit/main.sh #启动脚本
+#bash /home/runner/zfile-replit/main.sh #启动脚本
