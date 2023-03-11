@@ -1,0 +1,7 @@
+2023-03-09 00:34:16.272 DEBUG 6862 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-09 00:34:54.938 DEBUG 7043 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-09 00:35:27.360 DEBUG 7236 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-09 00:36:01.979 DEBUG 7435 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-09 00:36:33.909 DEBUG 7577 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-09 00:37:03.056 DEBUG 7763 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-09 00:37:33.152 DEBUG 7929 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20

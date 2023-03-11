@@ -1,0 +1,53 @@
+ ________  ________ ___  ___       _______
+|\_____  \|\  _____\\  \|\  \     |\  ___ \
+ \|___/  /\ \  \__/\ \  \ \  \    \ \  ___
+     /  / /\ \   __\\ \  \ \  \    \ \  ___\
+    /  /_/__\ \  \_| \ \  \ \  \____\ \  _____
+   |\________\ \__\   \ \__\ \_______\ \_______\
+    \|_______|\|__|    \|__|\|_______|\|_______|
+2023-03-11 17:48:22.418  INFO 182 --- [                                    ] [          ] [               ] [           main] im.zhaojun.zfile.ZfileApplication        55     : Starting ZfileApplication using Java 11.0.13 on 126313ea18f9 with PID 182 (/home/runner/zfile/zfile/WEB-INF/classes started by runner in /home/runner/zfile/zfile)
+2023-03-11 17:48:22.430  INFO 182 --- [                                    ] [          ] [               ] [           main] im.zhaojun.zfile.ZfileApplication        651    : The following 1 profile is active: "prod"
+2023-03-11 17:48:39.348  INFO 182 --- [                                    ] [          ] [               ] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  108    : Tomcat initialized with port(s): 8080 (http)
+2023-03-11 17:48:39.431  INFO 182 --- [                                    ] [          ] [               ] [           main] o.a.coyote.http11.Http11NioProtocol      173    : Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 17:48:39.462  INFO 182 --- [                                    ] [          ] [               ] [           main] o.apache.catalina.core.StandardService   173    : Starting service [Tomcat]
+2023-03-11 17:48:39.477  INFO 182 --- [                                    ] [          ] [               ] [           main] org.apache.catalina.core.StandardEngine  173    : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-03-11 17:48:41.617  INFO 182 --- [                                    ] [          ] [               ] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173    : Initializing Spring embedded WebApplicationContext
+2023-03-11 17:48:41.625  INFO 182 --- [                                    ] [          ] [               ] [           main] w.s.c.ServletWebServerApplicationContext 290    : Root WebApplicationContext: initialization completed in 18705 ms
+2023-03-11 17:48:43.703  INFO 182 --- [                                    ] [          ] [               ] [           main] com.zaxxer.hikari.HikariDataSource       110    : HikariPool-1 - Starting...
+2023-03-11 17:48:44.269  INFO 182 --- [                                    ] [          ] [               ] [           main] com.zaxxer.hikari.HikariDataSource       123    : HikariPool-1 - Start completed.
+2023-03-11 17:48:44.506  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.c.internal.license.VersionPrinter    44     : Flyway Community Edition 7.15.0 by Redgate
+2023-03-11 17:48:44.510  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.c.i.database.base.BaseDatabaseType   44     : Database: jdbc:sqlite:/home/runner/zfile/.zfile-v4/db/zfile (SQLite 3.36)
+2023-03-11 17:48:44.809  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbValidate     44     : Successfully validated 15 migrations (execution time 00:00.149s)
+2023-03-11 17:48:44.817  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.c.i.s.JdbcTableSchemaHistory         44     : Creating Schema History table "main"."flyway_schema_history" ...
+2023-03-11 17:48:44.923  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Current version of schema "main": << Empty Schema >>
+2023-03-11 17:48:44.926  WARN 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      48     : outOfOrder mode is active. Migration of schema "main" may not be reproducible.
+2023-03-11 17:48:45.016  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "1 - Base version"
+2023-03-11 17:48:45.108  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "2 - download log modify storage key field length"
+2023-03-11 17:48:45.130  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "3 - system config add field file click mode"
+2023-03-11 17:48:45.202  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "4 - download log modify ip field length"
+2023-03-11 17:48:45.222  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "7 - system config add field max file uploads"
+2023-03-11 17:48:45.261  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "8 - storage source add field compatibility readme"
+2023-03-11 17:48:45.324  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "9 - system config add field only office url"
+2023-03-11 17:48:45.411  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "11 - system config modify field only office url to https"
+2023-03-11 17:48:45.442  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "12 - system config modify field value to text"
+2023-03-11 17:48:45.515  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "13 - system config add field allow path link anon access"
+2023-03-11 17:48:45.596  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "14 - system config add field load more size"
+2023-03-11 17:48:45.622  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "15 - system config add field site home name"
+2023-03-11 17:48:45.638  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "16 - system config add field default sort field"
+2023-03-11 17:48:45.650  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" to version "17 - system config add field link limit field"
+2023-03-11 17:48:45.744  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Migrating schema "main" with repeatable migration "data"
+2023-03-11 17:48:45.810  INFO 182 --- [                                    ] [          ] [               ] [           main] o.f.core.internal.command.DbMigrate      44     : Successfully applied 15 migrations to schema "main", now at version v17 (execution time 00:00.891s)
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.3.1 
+2023-03-11 17:49:02.459  INFO 182 --- [                                    ] [          ] [               ] [           main] o.h.validator.internal.util.Version      21     : HV000001: Hibernate Validator 6.2.3.Final
+2023-03-11 17:49:04.230  INFO 182 --- [                                    ] [          ] [               ] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    53     : Adding welcome page: class path resource [static/index.html]
+2023-03-11 17:49:06.339  INFO 182 --- [                                    ] [          ] [               ] [           main] o.a.coyote.http11.Http11NioProtocol      173    : Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 17:49:06.523  INFO 182 --- [                                    ] [          ] [               ] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  220    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-11 17:49:12.461  INFO 182 --- [                                    ] [          ] [               ] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       173    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 17:49:12.474  INFO 182 --- [                                    ] [          ] [               ] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        525    : Initializing Servlet 'dispatcherServlet'
+2023-03-11 17:49:12.505  INFO 182 --- [                                    ] [          ] [               ] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        547    : Completed initialization in 31 ms
+2023-03-11 17:49:16.343  INFO 182 --- [                                    ] [          ] [               ] [           main] im.zhaojun.zfile.ZfileApplication        61     : Started ZfileApplication in 60.597 seconds (JVM running for 65.288)
+2023-03-11 17:49:26.324  INFO 182 --- [                                    ] [          ] [               ] [   scheduling-1] i.z.z.m.s.s.AccessTokenRefreshSchedule   31     : 开始执行需要定期刷新 AccessToken 存储源的定时任务
+2023-03-11 17:49:26.325  INFO 182 --- [                                    ] [          ] [               ] [   scheduling-1] i.z.z.m.s.s.AccessTokenRefreshSchedule   48     : 执行需要定期刷新 AccessToken 存储源的定时任务完成
