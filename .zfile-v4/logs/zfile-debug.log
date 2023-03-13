@@ -1,9 +1,1 @@
-2023-03-11 11:01:26.005 DEBUG 47 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 17:46:42.720 DEBUG 46 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 17:48:22.428 DEBUG 182 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 20:26:46.527 DEBUG 2599 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 20:28:50.864 DEBUG 2902 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 21:53:44.203 DEBUG 52 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 23:05:43.341 DEBUG 52 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 23:13:46.783 DEBUG 891 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
-2023-03-11 23:23:52.590 DEBUG 1935 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
+2023-03-13 21:14:52.875 DEBUG 47 --- [                                    ] [          ] [               ] [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.6.8, Spring v5.3.20
