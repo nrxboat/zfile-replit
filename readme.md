@@ -1,7 +1,7 @@
 ## zfile on replit（附一键管理脚本）
 
 ### 特点
-1. 预置已安装好的zfile，运行main.sh即可使用，真正意义上的开箱即用（数据库位于./.zfile-v4/db)
+1. 预置已安装好的zfile，运行main.sh即可使用（数据库位于./.zfile-v4/db)
 2. 可开启自动保活（来自github@jzjbyq）
 3. 后续升级简单
 4. 修复了zfile在replit部署中的问题
@@ -25,7 +25,7 @@ https://zfile.isriro.icu
 1. 默认使用sqlite数据库，如有需求请运行zfile.sh切换数据库
 2. 自动保活默认为关闭状态，自行决定是否启用（谨慎，滥用可能导致项目被ban）
 3. 鉴于replit免费项目性能较差，点击运行后可能需要等一会才能见到webview
-4.  ~~ 创建repl后请不要修改项目名称，否则可能会出现问题 ~~
+4. 创建repl后请不要修改项目名称，否则可能会出现问题
 
 
 

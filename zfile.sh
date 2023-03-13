@@ -1,4 +1,4 @@
-chmod +x ./bash/*.sh
+#chmod +x ./bash/*.sh #这一行没必要，所以注释掉了
 echo "欢迎使用zfile一键脚本"
 echo "1.启动zfile"
 echo "2.停止zfile"
