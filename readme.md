@@ -13,10 +13,11 @@ https://zfile.isriro.icu
 ### 如何使用
 
 #### 
-1. 复制本项目地址，在replit上注册/登录，点击Create Repl
+1. 复制本项目地址，在replit.com上注册/登录，点击Create Repl
 2. 点击 Import from Github,填入刚才复制的项目地址
 3. 修改Languages为Bash,点击蓝色的Import from Github
-4. 等到Import完成后，在console中输入bash zfile.sh然后回车
+4. 等到加载完成后，在console中输入bash zfile.sh然后回车
+5. 除了运行zfile.sh之外，也可直接点击绿色的run按钮直接运行
 
 #### 教育版
 未测试，之后再补
